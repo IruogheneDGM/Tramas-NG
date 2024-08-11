@@ -204,7 +204,7 @@ header {
 
 .form-box .form-content {
   width: 100%;
-  padding: 35px;
+  padding: 4px;
 }
 
 .form-box h2 {
@@ -214,7 +214,7 @@ header {
 
 form .input-field {
   position: relative;
-  height: 50px;
+  height: 40px;
   width: 100%;
   margin-top: 20px;
 }
@@ -435,11 +435,25 @@ form button:hover {
         <form action="#">
           <div class="input-field">
             <input type="text" required>
-            <label>Enter your email</label>
+            <label>Full Name</label>
           </div>
+          <div class="input-field">
+            <input type="text" required>
+            <label>Email Address</label>
+          </div>
+          <br/>
+          <LABEL FOR="C1">Gender</LABEL>
+          <br/>
+          <INPUT TYPE="Radio" Name="Gender" Value ="Male">Male
+            <INPUT TYPE="Radio" Name= "Gender" Value ="Female">Female
+              <br/>
           <div class="input-field">
             <input type="password" required>
             <label>Create password</label>
+          </div>
+          <div class="input-field">
+            <input type="password" required>
+            <label>Confirm password</label>
           </div>
           <div class="policy-text">
             <input type="checkbox" id="policy">
