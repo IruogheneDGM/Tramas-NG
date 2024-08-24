@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Style inputs */
+  input[type=text], select {
+  width: 25%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 10%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 7px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+
+    <form action="/action_page.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fullname" placeholder="Type here..">
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <label for="fname">Email Address</label>
+        <input type="text" id="fname" name="emailaddress" placeholder="Type here..">
+
+        <div></div>
+      
+        <label for="lname">Next of Kin</label>
+        <input type="text" id="lname" name="nextofkin" placeholder="Type here..">
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <label for="fname">Email Address</label>
+        <input type="text" id="fname" name="emailaddress" placeholder="Type here..">
+
+
+        <div></div>
+
+        <label for="lname">Residential Address</label>
+        <input type="text" id="lname" name="homeaddress" placeholder="Type address here..">
+
+        <div></div>
+
+      
+        <label for="country">State</label>
+        <select id="country" name="country">
+          <option value="australia">None</option>
+          <option value="canada">Abia</option>
+          <option value="usa">Adamawa</option>
+          <option value="usa">Anambra</option>
+          <option value="usa">Bauchi</option>
+          <option value="usa">Bayelsa</option>
+          <option value="usa">Benue</option>
+          <option value="usa">Borno</option>
+          <option value="usa">Cross River</option>
+          <option value="usa">Delta</option>
+          <option value="usa">Ebonyi</option>
+          <option value="usa">Edo</option>
+          <option value="usa">Ekiti</option>
+          <option value="usa">Enugu</option>
+          <option value="usa">FCT-Abuja</option>
+          <option value="usa">Gombe</option>
+          <option value="usa">Imo</option>
+          <option value="usa">Jigawa</option>
+          <option value="usa">Kaduna</option>
+          <option value="usa">Kano</option>
+          <option value="usa">Kastina</option>
+          <option value="usa">Kebbi</option>
+          <option value="usa">Kogi</option>
+          <option value="usa">Kwara</option>
+          <option value="usa">Lagos</option>
+          <option value="usa">Nasarawa</option>
+          <option value="usa">Niger</option>
+          <option value="usa">Ogun</option>
+          <option value="usa">Ondo</option>
+          <option value="usa">Osun</option>
+          <option value="usa">Oyo</option>
+          <option value="usa">Plateau</option>
+          <option value="usa">Rivers</option>
+          <option value="usa">Sokoto</option>
+          <option value="usa">Taraba</option>
+          <option value="usa">Yobe</option>
+          <option value="usa">Zamfara</option>
+        </select>
+
+        <div></div>
+        <INPUT TYPE="Radio" Name="Gender" Value ="Male">Yes, Pickup from home; 
+            <INPUT TYPE="Radio" Name= "Gender" Value ="Female">No, other means
+      
+        <input type="submit" value="Submit">
+      </form>
+    
+</body>
+</html>
